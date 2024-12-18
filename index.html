@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="logo">
+        <img class="logo1" src="img/logo.png" alt="">
+        <img class="logo2" src="img/logo_white.png" alt="">
+        </div>
+        <div class="menu">
+            <div><a href="#p1">обо мне</a></div>
+            <div><a href="#p2">проекты</a></div>
+            <div><a href="#p3">обратная связь</a></div>
+            <div><a href="#p4">контакты</a></div>
+        </div>
+    </header>
+    <div class="basic">
+        <img src="img/undraw_website_5bo81.png" alt="">
+        <h3 id="p1">Обо мне</h3>
+        <p>Меня зовут Лиза, и я студент колледжа МИДиС, на факультете информационных технологий, где изучаю веб-разработку и верстку. В настоящее время я активно осваиваю технологии HTML и CSS, а также изучаю основы JavaScript.</p>
+    </div>
+    <div class="card">
+        <h3 id="p2">Проекты</h3>
+        <div class="flex-container">
+            <div class="flex-elem">
+                <img class="card33" src="img/Снимокэкранасайтвизитка.png" alt="">
+                <p>Сайт визитка</p>
+                <a href="https://wiplid.github.io/my-site/"><input type="button" value="открыть"/></a>
+            </div>
+            <div class="flex-elem">
+                <img class="card33" src="img/Снимокэкранаhovering2.png" alt="">
+                <p>Hovering</p>
+                <a href="https://wiplid.github.io/site-kr/"><input type="button" value="открыть"/></a>
+            </div>
+            <div class="flex-elem">
+                <img class="card33" src="img/Снимокэкранаhoney2.png" alt="">
+                <p>Honey Sale</p>
+                <a href="https://wiplid.github.io/bee/"><input type="button" value="открыть"/></a>
+            </div>
+            <div class="flex-elem">
+                <img class="card33" src="img/Снимокэкрана1сайт.png" alt="">
+                <p>Первый сайт</p>
+                <a href="https://wiplid.github.io/site-1/"><input type="button" value="открыть"/></a>
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <h3 id="p3">Обратная связь</h3>
+        <form id="contact-form">
+            <div class="form__item">
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+            </div>
+            <div class="form__item">
+                <label for="email">Ваш email:</label><br>
+                <input type="text" id="email" name="email" placeholder="Введите ваш email" required>
+            </div>
+            <div class="form__item">
+                <label for="topic">Тема:</label><br>
+                <select id="topic" name="topic" required>
+                    <option value="">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div>
+            <div class="form__item">
+                <label for="message">Ваше сообщение:</label><br>
+                <textarea id="message" name="message" rows="4" placeholder="Введите ваше сообщение"></textarea>
+            </div>
+            <div class="form__item">
+                <input type="submit" value="Отправить">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="logo-f">
+        <img class="logo1" src="img/logo.png" alt="">
+        <img class="logo2" src="img/logo_white.png" alt="">
+        </div>
+        <h3 id="p4">Контакты</h3>
+        <div class="footer_icons">
+        <a href="https://vk.com/"><img class="footer_img vk" src="img/9034990_logo_vk_icon1.png" alt=""></a>
+        <a href="https://mail.ru/"><img class="footer_img email" src="img/1181190_email_gmail_google_mail_icon1.png" alt=""></a>
+        <a href="https://web.telegram.org/a/"><img class="footer_img tg" src="img/8547122_telegram_plane_icon(1).png" alt=""></a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
